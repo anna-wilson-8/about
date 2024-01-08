@@ -1,0 +1,32 @@
+#home{
+padding: 100px 40px;
+}
+
+#home ul{
+	display:flex ;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: -20px;
+	list-style-type: none;
+}
+#home ul li{
+width: 19%;
+margin-bottom: 20px;	
+}
+#home ul li img{
+;	
+width: 100%;
+
+}
+@media all and (max-width:786px){
+#home ul li {
+	padding: 60%;
+
+}
+}
+@media all and (max-width:980px){
+#home ul li{
+	width: 30%;
+
+}
+}
